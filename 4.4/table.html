@@ -6,6 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table</title>
     <style>
+        nav ul {
+            display: flex;
+        }
+
+        nav li {
+            list-style: none;
+            margin-right: 50px;
+        }
+
+        nav li a {
+            text-decoration: none;
+        }
+
+        nav li:hover {
+            background-color: lightblue;
+        }
+
         table {
             border-collapse: collapse;
         }
@@ -23,6 +40,19 @@
 </head>
 
 <body>
+    <header>
+        <nav>
+            <ul>
+                <!-- li*4>a -->
+                <li><a href="../4.2/blogs.html">Blogs</a></li>
+                <li><a href="../4.6/center.html">Center</a></li>
+                <li><a href="../4.5/flex.html">Flex</a></li>
+                <li><a href="../4.4/table.html">Table</a></li>
+                <li><a href="../4.3/form.html">Form</a></li>
+                <li><a href="../4.7/nav.html">Nav</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
         <table>
             <caption>My Friends Collection</caption>

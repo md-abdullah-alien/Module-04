@@ -1,15 +1,18 @@
-nav li {
-    list-style: none;
-    display: inline-block;
-    margin-right: 100px;
+nav ul {
+    display: flex;
 }
 
-nav li:hover {
-    background-color: aqua;
+nav li {
+    list-style: none;
+    margin-right: 50px;
 }
 
 nav li a {
     text-decoration: none;
+}
+
+nav li:hover {
+    background-color: lightblue;
 }
 
 footer {
