@@ -1,0 +1,6 @@
+HTML Version
+==> HTML1(1993), HTML2(1995), HTML3(1997), HTML4(1999), HTML4.01(2012) & HTML5(2014)
+
+HTML Other version tags are non-semantic but HTML5 tags are semantic.
+==> Non-Semantic tags: No specification of different section. Shortly(Not meaningful) Every section under a div to another div.Example: <div>under another div & another div </div>
+==> Semantic tags: Specification in every section like header, main, footer section etc. Shortly(Meaningful) Example: <header></header>, <main></main>, <nav></nav>, <article></article>, <footer></footer>
