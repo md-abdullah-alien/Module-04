@@ -1,0 +1,46 @@
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+nav li:hover {
+    background-color: lightblue;
+}
+
+body {
+    max-width: 1270px;
+    background-color: lightcoral;
+    margin: 0 auto;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    background-color: lightgreen;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 25px;
+    /* justify-content: center; */
+}
+
+.hero-container button {
+    background-color: aqua;
+    padding: 10px 30px;
+    font-size: 1.25em;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.hero-container img {
+    width: 100%;
+    border-radius: 20px;
+}
