@@ -1,0 +1,21 @@
+HTML Form Tag: <form action:"" method:""></form>
+Here action attributes: Specifies the URL of file where the form data is sent
+Here method attributes: Specifies the HTTP method for submitting the form(GET or POST)
+
+Using HTML Audio Tag:
+Using HTML iframe Tag
+Input Tag:
+==> Text: <input type="text">
+==> Password: <input type="password">
+==> Email: <input type="email">
+==> Number: <input type="number">
+==> Checkbox: <input type="checkbox">
+==> Radio: <input type="radio">
+==> Submit Button: <input type="submit">
+
+Some Input Attributes:
+==> Value Attributes: Set default value of the input field.
+==> Required Attributes: It makes the input field mandatory, and the form cannot be submitted without entering a value.
+==> Disabled Attributes: This attributes disables the input field, making it non-editable and non-interactive.
+==> Readonly Attributes: Makes the input field read-only, preventing users from editing its value.
+==> Placeholder Attributes: provides a hint or example text within the input field.
