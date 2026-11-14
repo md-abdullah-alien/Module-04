@@ -1,0 +1,41 @@
+h2 {
+    text-align: center;
+    font-size: 3em;
+}
+
+.cards {
+    display: flex;
+    /* gap: 50px; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    background-color: aqua;
+    color: darkblue;
+    width: 400px;
+    text-align: center;
+    border: 2px solid aquamarine;
+    padding: 10px;
+    box-shadow: 10px 10px 20px turquoise;
+}
+
+.card:hover {
+    background-color: darkblue;
+    color: aqua;
+    box-shadow: 10px 10px 20px aquamarine;
+}
+
+div img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+h4 {
+    font-size: 1.25em;
+}
